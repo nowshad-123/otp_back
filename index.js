@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 connectDB();
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'mbl-otp-feature-jt3xgdl27-nowshad-123.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
