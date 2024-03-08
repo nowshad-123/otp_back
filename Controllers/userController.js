@@ -2,7 +2,7 @@ import { generateAccessToken } from "../authentication/userAuth.js";
 import User from "../models/userModel.js";
 import { sendOtp, verifyOtp } from "../twilio.js";
 
-generateAccessToken
+
 
 export const sendingOtp = (req, res) => {
     const { firstName, phone } = req.body;
